@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             RunLaneTestAndroidTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Android gitflow test",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
